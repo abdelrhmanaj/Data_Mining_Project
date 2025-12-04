@@ -1,9 +1,9 @@
 # Diabetes Prediction Project
 
-📋Project Overview
+# 📋Project Overview
 A comprehensive data mining project focused on predicting diabetes risk using medical and laboratory data. This project implements machine learning classification models to identify patients as Non-Diabetic (N), Prediabetic (P), or Diabetic (Y) based on clinical parameters.
 
-🎯 Project Objectives
+# 🎯 Project Objectives
 Predictive Modeling: Develop accurate classification models for diabetes prediction
 
 Risk Factor Analysis: Identify key clinical markers associated with diabetes
@@ -12,7 +12,7 @@ Data Insights: Explore patterns and relationships in medical data
 
 Visual Analytics: Create comprehensive visualizations for data understanding
 
-📊 Dataset Description
+# 📊 Dataset Description
 Features Overview
 Demographic: Gender, Age, BMI
 
@@ -33,8 +33,8 @@ Classes: 3 (N, P, Y)
 
 Data Types: Numerical and categorical variables
 
-🛠️ Technical Implementation
-Phase 1: Data Preprocessing & Exploration ✅
+# 🛠️ Technical Implementation
+# Phase 1: Data Preprocessing & Exploration ✅
 Data Cleaning: Handle missing values, duplicates, and data validation
 
 Outlier Detection: IQR method, Z-score, and medical range validation
@@ -43,7 +43,7 @@ Exploratory Analysis: Distribution analysis, correlation studies
 
 Visualization: Comprehensive plots for data understanding
 
-Phase 2: Feature Engineering & Modeling 🚧
+# Phase 2: Feature Engineering & Modeling 🚧
 Feature selection and transformation
 
 Model implementation and evaluation
@@ -52,16 +52,7 @@ Hyperparameter tuning
 
 Performance comparison
 
-Phase 3: Insights & Deployment 🚧
-Model interpretation
-
-Risk factor analysis
-
-Deployment strategy
-
-Documentation
-
-📈 Key Visualizations
+# 📈 Key Visualizations
 Generated Plots:
 Outlier Detection Boxplots - Identify anomalies in clinical data
 
