@@ -44,13 +44,18 @@ Exploratory Analysis: Distribution analysis, correlation studies
 Visualization: Comprehensive plots for data understanding
 
 # Phase 2: Feature Engineering & Modeling 🚧
-Feature selection and transformation
+Random Forest outperforms all other models.
+•	Using all features, it achieved the highest test accuracy (0.995), perfect precision (1.0), and very high recall (0.97) and F1-score (0.98).
+•	Even with the strongest features only, Random Forest still performed excellently, showing its robustness.
+SVM and Decision Tree models also perform well.
+•	SVM with all features achieved high precision (0.92) and recall (0.91), making it a strong choice for balanced performance.
+•	Decision Tree improves slightly when using only the strongest features, achieving a test accuracy of 0.975.
+Naive Bayes and KNN show moderate performance.
+•	Naive Bayes maintains consistent results with all features, but its performance drops with strong features.
+•	KNN shows a slight improvement when using strong features, but its overall performance is lower than Random Forest and SVM.
+Logistic Regression performs the worst among all models.
+•	Both with all features and strongest features, it has lower precision, recall, and F1-score, indicating it may not capture the complexity of the data as well as other models.
 
-Model implementation and evaluation
-
-Hyperparameter tuning
-
-Performance comparison
 
 # 📈 Key Visualizations
 Generated Plots:
